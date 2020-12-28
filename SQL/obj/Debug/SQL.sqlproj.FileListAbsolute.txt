@@ -1,0 +1,16 @@
+E:\Projectes\Projectes Visual Studio\TendaJocs\SQL\bin\Debug\SQL.dacpac
+E:\Projectes\Projectes Visual Studio\TendaJocs\SQL\bin\Debug\SQL.dll
+E:\Projectes\Projectes Visual Studio\TendaJocs\SQL\bin\Debug\SQL.pdb
+E:\Projectes\Projectes Visual Studio\TendaJocs\SQL\obj\Debug\SQL.sqlprojAssemblyReference.cache
+E:\Projectes\Projectes Visual Studio\TendaJocs\SQL\obj\Debug\SQL.dll
+E:\Projectes\Projectes Visual Studio\TendaJocs\SQL\obj\Debug\SQL.pdb
+C:\Users\mLlav\source\repos\GamesDAM\SQL\bin\Debug\SQL.dacpac
+C:\Users\mLlav\source\repos\GamesDAM\SQL\bin\Debug\SQL.dll
+C:\Users\mLlav\source\repos\GamesDAM\SQL\bin\Debug\SQL.pdb
+C:\Users\mLlav\source\repos\GamesDAM\SQL\obj\Debug\SQL.sqlprojAssemblyReference.cache
+C:\Users\mLlav\source\repos\GamesDAM\SQL\obj\Debug\SQL.dll
+C:\Users\mLlav\source\repos\GamesDAM\SQL\obj\Debug\SQL.pdb
+C:\Users\mLlav\source\repos\GamesDAM\SQL\obj\Debug\Model.xml
+C:\Users\mLlav\source\repos\GamesDAM\SQL\obj\Debug\refactor.xml
+C:\Users\mLlav\source\repos\GamesDAM\SQL\obj\Debug\postdeploy.sql
+C:\Users\mLlav\source\repos\GamesDAM\SQL\obj\Debug\predeploy.sql

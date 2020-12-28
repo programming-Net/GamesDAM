@@ -1,0 +1,31 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dbo].[consolas] (Tabla)
+       [dbo].[contenidos] (Tabla)
+       [dbo].[edades] (Tabla)
+       [dbo].[fabricantes] (Tabla)
+       [dbo].[generos] (Tabla)
+       [dbo].[jue_consola] (Tabla)
+       [dbo].[jue_contenido] (Tabla)
+       [dbo].[jue_genero] (Tabla)
+       [dbo].[juegos] (Tabla)
+       [dbo].[FK_jue_consola_consolas] (Clave externa)
+       [dbo].[FK_jue_consola_juegos] (Clave externa)
+       [dbo].[FK_jue_contenido_contenidos] (Clave externa)
+       [dbo].[FK_jue_contenido_juegos] (Clave externa)
+       [dbo].[FK_jue_genero_generos] (Clave externa)
+       [dbo].[FK_jue_genero_juegos] (Clave externa)
+       [dbo].[FK_juegos_edades] (Clave externa)
+       [dbo].[FK_juegos_fabricantes] (Clave externa)
+
+** Acciones de compatibilidad

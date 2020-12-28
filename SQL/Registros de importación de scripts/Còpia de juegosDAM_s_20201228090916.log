@@ -1,0 +1,36 @@
+28/12/2020 10:09:16	Este registro contiene información acerca de la operación de importación del script 'Còpia de juegosDAM.sql' en el proyecto 'SQL' del equipo 'DESKTOP-V9MAFQF' por el usuario 'mLlav.
+28/12/2020 10:09:16	Se inició la importación del archivo: C:\Users\mLlav\Downloads\Còpia de juegosDAM.sql 
+28/12/2020 10:09:16	Nombre de archivo: C:\Users\mLlav\Downloads\Còpia de juegosDAM.sql (tamaño: 24802)
+28/12/2020 10:09:16	Analizando script de importación
+28/12/2020 10:09:16	Número total de lotes en el script: 65
+28/12/2020 10:09:16	Número total de instrucciones en el script: 23
+28/12/2020 10:09:16	El script se importó correctamente en el proyecto.
+28/12/2020 10:09:16	Analizando los objetos de esquema...
+28/12/2020 10:09:16	Buscando elementos duplicados en el proyecto
+28/12/2020 10:09:16	El elemento 'consolas' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\consolas.sql'.
+28/12/2020 10:09:16	El elemento 'contenidos' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\contenidos.sql'.
+28/12/2020 10:09:16	El elemento 'edades' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\edades.sql'.
+28/12/2020 10:09:16	El elemento 'fabricantes' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\fabricantes.sql'.
+28/12/2020 10:09:16	El elemento 'generos' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\generos.sql'.
+28/12/2020 10:09:16	El elemento 'jue_consola' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\jue_consola.sql'.
+28/12/2020 10:09:16	El elemento 'jue_contenido' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\jue_contenido.sql'.
+28/12/2020 10:09:16	El elemento 'jue_genero' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\jue_genero.sql'.
+28/12/2020 10:09:16	El elemento 'juegos' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\juegos.sql'.
+28/12/2020 10:09:16	El elemento 'FK_jue_consola_consolas' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\jue_consola.sql'.
+28/12/2020 10:09:16	El elemento 'FK_jue_consola_juegos' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\jue_consola.sql'.
+28/12/2020 10:09:16	El elemento 'FK_jue_contenido_contenidos' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\jue_contenido.sql'.
+28/12/2020 10:09:17	El elemento 'FK_jue_contenido_juegos' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\jue_contenido.sql'.
+28/12/2020 10:09:17	El elemento 'FK_jue_genero_generos' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\jue_genero.sql'.
+28/12/2020 10:09:17	El elemento 'FK_jue_genero_juegos' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\jue_genero.sql'.
+28/12/2020 10:09:17	El elemento 'FK_juegos_edades' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\juegos.sql'.
+28/12/2020 10:09:17	El elemento 'FK_juegos_fabricantes' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\juegos.sql'.
+28/12/2020 10:09:17	El elemento 'IX_consolas' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\consolas.sql'.
+28/12/2020 10:09:17	El elemento 'IX_contenidos' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\contenidos.sql'.
+28/12/2020 10:09:17	El elemento 'IX_edades' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\edades.sql'.
+28/12/2020 10:09:17	El elemento 'IX_fabricantes' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\fabricantes.sql'.
+28/12/2020 10:09:17	El elemento 'IX_generos' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\generos.sql'.
+28/12/2020 10:09:17	El elemento 'IX_juegos' se combinó en el script existente: 'C:\Users\mLlav\source\repos\GamesDAM\SQL\dbo\Tables\juegos.sql'.
+28/12/2020 10:09:18	Ha finalizado el procesamiento de los elementos duplicados
+28/12/2020 10:09:19	En el script que proporcionó para la operación de importación, no se comprendieron totalmente dos o más instrucciones. Estas instrucciones se movieron al archivo ScriptsIgnoredOnImport.sql. Revise el contenido del archivo para obtener más información.
+28/12/2020 10:09:19	Se guardó un resumen de la importación en la siguiente ubicación: C:\Users\mLlav\source\repos\GamesDAM\SQL\Registros de importación de scripts\Còpia de juegosDAM_s_20201228090916.log
+28/12/2020 10:09:19	Haga clic en Finalizar para continuar...
