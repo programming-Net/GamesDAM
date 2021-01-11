@@ -35,8 +35,8 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.sortirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.conusltesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.jocsPerConsolaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jocsPerFabToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.jocsPerConsolaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,21 +67,21 @@
             // 
             this.consolaToolStripMenuItem.Name = "consolaToolStripMenuItem";
             this.consolaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.consolaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.consolaToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
             this.consolaToolStripMenuItem.Text = "Consola";
             this.consolaToolStripMenuItem.Click += new System.EventHandler(this.consolaToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(221, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(193, 6);
             // 
             // sortirToolStripMenuItem
             // 
             this.sortirToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("sortirToolStripMenuItem.Image")));
             this.sortirToolStripMenuItem.Name = "sortirToolStripMenuItem";
             this.sortirToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.sortirToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sortirToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
             this.sortirToolStripMenuItem.Text = "Sortir";
             this.sortirToolStripMenuItem.Click += new System.EventHandler(this.sortirToolStripMenuItem_Click);
             // 
@@ -94,19 +94,19 @@
             this.conusltesToolStripMenuItem.Size = new System.Drawing.Size(86, 24);
             this.conusltesToolStripMenuItem.Text = "Consultes";
             // 
-            // jocsPerConsolaToolStripMenuItem
-            // 
-            this.jocsPerConsolaToolStripMenuItem.Name = "jocsPerConsolaToolStripMenuItem";
-            this.jocsPerConsolaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.jocsPerConsolaToolStripMenuItem.Text = "Jocs per consola";
-            this.jocsPerConsolaToolStripMenuItem.Click += new System.EventHandler(this.jocsPerConsolaToolStripMenuItem_Click);
-            // 
             // jocsPerFabToolStripMenuItem
             // 
             this.jocsPerFabToolStripMenuItem.Name = "jocsPerFabToolStripMenuItem";
-            this.jocsPerFabToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.jocsPerFabToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
             this.jocsPerFabToolStripMenuItem.Text = "Jocs per fabricant";
             this.jocsPerFabToolStripMenuItem.Click += new System.EventHandler(this.jocsPerFabToolStripMenuItem_Click);
+            // 
+            // jocsPerConsolaToolStripMenuItem
+            // 
+            this.jocsPerConsolaToolStripMenuItem.Name = "jocsPerConsolaToolStripMenuItem";
+            this.jocsPerConsolaToolStripMenuItem.Size = new System.Drawing.Size(208, 26);
+            this.jocsPerConsolaToolStripMenuItem.Text = "Jocs per consola";
+            this.jocsPerConsolaToolStripMenuItem.Click += new System.EventHandler(this.jocsPerConsolaToolStripMenuItem_Click);
             // 
             // Form1
             // 

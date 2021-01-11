@@ -74,11 +74,8 @@
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="gamesDAMDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>gamesDAMDataSet.xsd</DependentUpon>
-    </Compile>
+    <Compile Include="Helpers\DataGridViewExtensions.cs" />
+    <Compile Include="Helpers\MessageHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\Consoles\FormAddConsola.resx">
@@ -99,17 +96,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="gamesDAMDataSet.xsc">
-      <DependentUpon>gamesDAMDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="gamesDAMDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>gamesDAMDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="gamesDAMDataSet.xss">
-      <DependentUpon>gamesDAMDataSet.xsd</DependentUpon>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -123,6 +109,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GamesDAM.Bussines\GamesDAM.Bussines.csproj">
+      <Project>{d8ac80f0-439f-4ea8-b692-8dbcfeca7804}</Project>
+      <Name>GamesDAM.Bussines</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

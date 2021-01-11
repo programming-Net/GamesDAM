@@ -14,3 +14,9 @@ C:\Users\mLlav\source\repos\GamesDAM\SQL\obj\Debug\Model.xml
 C:\Users\mLlav\source\repos\GamesDAM\SQL\obj\Debug\refactor.xml
 C:\Users\mLlav\source\repos\GamesDAM\SQL\obj\Debug\postdeploy.sql
 C:\Users\mLlav\source\repos\GamesDAM\SQL\obj\Debug\predeploy.sql
+C:\Users\mLlav\OneDrive\Documentos\GitHub\GamesDAM\SQL\bin\Debug\SQL.dacpac
+C:\Users\mLlav\OneDrive\Documentos\GitHub\GamesDAM\SQL\bin\Debug\SQL.dll
+C:\Users\mLlav\OneDrive\Documentos\GitHub\GamesDAM\SQL\bin\Debug\SQL.pdb
+C:\Users\mLlav\OneDrive\Documentos\GitHub\GamesDAM\SQL\obj\Debug\SQL.dll
+C:\Users\mLlav\OneDrive\Documentos\GitHub\GamesDAM\SQL\obj\Debug\SQL.pdb
+C:\Users\mLlav\OneDrive\Documentos\GitHub\GamesDAM\SQL\obj\Debug\SQL.sqlprojAssemblyReference.cache

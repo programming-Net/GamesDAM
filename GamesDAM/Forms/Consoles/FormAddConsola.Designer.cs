@@ -39,12 +39,11 @@ namespace GamesDAM.Forms.Consoles
             this.lbl_name = new System.Windows.Forms.Label();
             this.txt_description = new System.Windows.Forms.TextBox();
             this.txt_name = new System.Windows.Forms.TextBox();
-            this.consolasTableAdapter = new GamesDAM.gamesDAMDataSetTableAdapters.consolasTableAdapter();
-            this.bindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.gamesDAMDataSet = new GamesDAM.gamesDAMDataSet();
+            this.errorName = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorDescription = new System.Windows.Forms.ErrorProvider(this.components);
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gamesDAMDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorName)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorDescription)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -61,7 +60,7 @@ namespace GamesDAM.Forms.Consoles
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
             this.groupBox1.Location = new System.Drawing.Point(20, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(523, 236);
+            this.groupBox1.Size = new System.Drawing.Size(538, 236);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Incloure";
@@ -84,7 +83,7 @@ namespace GamesDAM.Forms.Consoles
             this.btn_save.TabIndex = 8;
             this.btn_save.Text = "Guardar";
             this.btn_save.UseVisualStyleBackColor = true;
-            this.btn_save.Click += new System.EventHandler(this.button2_Click);
+            this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
             // 
             // button1
             // 
@@ -115,7 +114,7 @@ namespace GamesDAM.Forms.Consoles
             // 
             // txt_description
             // 
-            this.txt_description.Location = new System.Drawing.Point(136, 79);
+            this.txt_description.Location = new System.Drawing.Point(143, 79);
             this.txt_description.Multiline = true;
             this.txt_description.Name = "txt_description";
             this.txt_description.Size = new System.Drawing.Size(362, 72);
@@ -123,24 +122,20 @@ namespace GamesDAM.Forms.Consoles
             // 
             // txt_name
             // 
-            this.txt_name.Location = new System.Drawing.Point(136, 28);
+            this.txt_name.Location = new System.Drawing.Point(143, 28);
             this.txt_name.Name = "txt_name";
             this.txt_name.Size = new System.Drawing.Size(362, 32);
             this.txt_name.TabIndex = 3;
             // 
-            // consolasTableAdapter
+            // errorName
             // 
-            this.consolasTableAdapter.ClearBeforeFill = true;
+            this.errorName.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
+            this.errorName.ContainerControl = this;
             // 
-            // bindingSource
+            // errorDescription
             // 
-            this.bindingSource.DataMember = "consolas";
-            this.bindingSource.DataSource = this.gamesDAMDataSet;
-            // 
-            // gamesDAMDataSet
-            // 
-            this.gamesDAMDataSet.DataSetName = "gamesDAMDataSet";
-            this.gamesDAMDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.errorDescription.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
+            this.errorDescription.ContainerControl = this;
             // 
             // FormAddConsola
             // 
@@ -148,19 +143,20 @@ namespace GamesDAM.Forms.Consoles
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(562, 267);
+            this.ClientSize = new System.Drawing.Size(582, 267);
             this.Controls.Add(this.groupBox1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormAddConsola";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "AddConsola";
             this.Load += new System.EventHandler(this.AddConsola_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gamesDAMDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorName)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorDescription)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -175,8 +171,7 @@ namespace GamesDAM.Forms.Consoles
         private System.Windows.Forms.Label lbl_name;
         private System.Windows.Forms.TextBox txt_description;
         private System.Windows.Forms.TextBox txt_name;
-        private gamesDAMDataSetTableAdapters.consolasTableAdapter consolasTableAdapter;
-        private System.Windows.Forms.BindingSource bindingSource;
-        private gamesDAMDataSet gamesDAMDataSet;
+        private System.Windows.Forms.ErrorProvider errorName;
+        private System.Windows.Forms.ErrorProvider errorDescription;
     }
 }

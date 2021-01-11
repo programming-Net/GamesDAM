@@ -1,0 +1,7 @@
+C:\Users\mLlav\OneDrive\Documentos\GitHub\GamesDAM\GamesDAM.Bussines\bin\Debug\GamesDAM.Bussines.dll.config
+C:\Users\mLlav\OneDrive\Documentos\GitHub\GamesDAM\GamesDAM.Bussines\bin\Debug\GamesDAM.Bussines.dll
+C:\Users\mLlav\OneDrive\Documentos\GitHub\GamesDAM\GamesDAM.Bussines\bin\Debug\GamesDAM.Bussines.pdb
+C:\Users\mLlav\OneDrive\Documentos\GitHub\GamesDAM\GamesDAM.Bussines\obj\Debug\GamesDAM.Bussines.csprojAssemblyReference.cache
+C:\Users\mLlav\OneDrive\Documentos\GitHub\GamesDAM\GamesDAM.Bussines\obj\Debug\GamesDAM.Bussines.csproj.CoreCompileInputs.cache
+C:\Users\mLlav\OneDrive\Documentos\GitHub\GamesDAM\GamesDAM.Bussines\obj\Debug\GamesDAM.Bussines.dll
+C:\Users\mLlav\OneDrive\Documentos\GitHub\GamesDAM\GamesDAM.Bussines\obj\Debug\GamesDAM.Bussines.pdb
